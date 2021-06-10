@@ -1,5 +1,5 @@
 {
-    "name": "laravel/laravel-worker",
+    "name": "ihaojian/laravel-worker",
     "description": "workerman extend for laravel8.0",
     "keywords": [
         "worker",
@@ -29,11 +29,12 @@
         "laravel": {
             "providers": [
                 "Laravel\\Worker\\WorkerServiceProvider"
-            ],
-            "config": {
-                "worker": "src/config/worker.php"
-            }
+            ]
         }
     },
-    "minimum-stability": "dev"
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
